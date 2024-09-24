@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="bg-pink-100">
+        <div class="flex pt-5 mx-20 pb-2 justify-between">
+            <button class="btn-sm rounded-md bg-lime-300 w-20 ">Blog</button>
+             <div class="flex gap-5">
+                <img  src="assets/logo.png" alt="" srcset="">
+                <h2 class="mt-2">Donate Bangladesh</h2>
+             </div>
+            <div class="flex gap-3 ">
+                <img class="h-1/2 mt-2" src="assets/coin.png" alt="" srcset="">
+                <h2 id="balance" class="donation-balance mt-2">5500</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <div class="bg-base-200"><h1 class="font-bold text-3xl  mt-7 pt-3 ml-4">Important FAQ <a><i class="fa fa-question-circle"></i></a></h1>
+        </div>
+    <div class="collapse collapse-arrow bg-base-200 ">
+        
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">1.What is the Document Object Model (DOM)?</div>
+        <div class="collapse-content">
+          <p>It is the programming interface for HTML and XML documents. The DOM (Document Object Model) represents the page as nodes and objects. It helps to connect the programming language to the web page. So that programmers can change document structure, style, and content.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">2.How do you select an element from the DOM?</div>
+        <div class="collapse-content">
+          <p>To select an element from the DOM, you can use the following methods:
+            getElementById(): Finds an element based on its unique ID.
+            querySelector(): Accepts a selector to determine which element to return.
+            getElementsByClassName(): Returns an HTMLCollection of elements with a specific class name.
+            Access a element by using getElementById()</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">3.What is event delegation in the context of the DOM, and why is it useful?</div>
+        <div class="collapse-content">
+          <p> Event Delegation is a pattern based upon the concept of Event Bubbling. It is an event-handling pattern that allows you to handle events at a higher level in the DOM tree other than the level where the event was first received.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">4.How do you manipulate an element's attributes and styles using the DOM?</div>
+        <div class="collapse-content">
+          <p>To manipulate an element's attributes and styles using the DOM, you can:
+            Change and remove existing elements in the DOM.
+            Create and add new elements to the page.
+            Change the styles for elements.</p>
+        </div>
+      </div>
+      
+    </div>
+</body>
+</html>
